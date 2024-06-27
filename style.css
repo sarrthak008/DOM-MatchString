@@ -45,3 +45,76 @@ color: #fefefe;
 font-size: 1.9vw;
 }
 
+@media screen and (max-width:480px) {
+     
+    
+ h3{
+    font-size: 9vw;
+ }
+#text-areacontainer{
+height: 70vh;
+width: 90vw;
+flex-direction: column;
+
+}
+textarea{
+height: 40%;
+width: 90%;
+font-size: 4.3vw;
+}
+
+span{
+color: #fefefe;
+font-size: 4.9vw;
+}
+
+}
+
+@media screen and (min-width:481px) and (max-width:720px) {
+         
+    
+ h3{
+    font-size: 5vw;
+ }
+#text-areacontainer{
+height: 70vh;
+width: 90vw;
+flex-direction: column;
+
+}
+textarea{
+height: 40%;
+width: 70%;
+font-size: 3.3vw;
+}
+
+span{
+color: #fefefe;
+font-size: 3.9vw;
+}
+  
+}
+
+
+@media screen and (min-width:721px) and (max-width:1030px) {         
+    
+    h3{
+       font-size: 3.1vw;
+    }
+   #text-areacontainer{
+   height: 70vh;
+   width: 80vw; 
+   justify-content: space-between
+   }
+   textarea{
+   height: 50%;
+   width: 45%;
+   font-size: 2.3vw;
+   }
+   
+   span{
+   color: #fefefe;
+   font-size: 2.9vw;
+   }
+    
+}
