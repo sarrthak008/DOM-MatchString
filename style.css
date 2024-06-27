@@ -47,7 +47,11 @@ font-size: 1.9vw;
 
 @media screen and (max-width:480px) {
      
-    
+   body{
+      justify-content: space-around;
+   } 
+
+
  h3{
     font-size: 9vw;
  }
